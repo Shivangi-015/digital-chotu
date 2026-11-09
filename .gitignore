@@ -1,0 +1,23 @@
+   # Secrets
+   .env
+   .env.*
+   !.env.example
+   *.pem
+   *.key
+
+   # Docker / local data
+   pgdata/
+   docker-compose.override.yml
+
+   # Logs & OS files
+   *.log
+   logs/
+   .DS_Store
+   Thumbs.db
+   Desktop.ini
+
+   # AI tool files (remove to commit them)
+   .agents/
+   .claude/
+   AGENTS.md
+   CLAUDE.md
